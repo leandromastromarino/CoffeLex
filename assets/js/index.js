@@ -100,7 +100,7 @@ function actualizarCarrito() {
         </div>
         <div class="trash" id="trash">
             <button onclick="Borrarproducto(${producto.id})">
-            <img src="../assets/images/trash@4x.png" alt="borrar-producto" class="img-trash">
+            <img src="./assets/images/trash@4x.png" alt="borrar-producto" class="img-trash">
             </button>
           
         </div>
