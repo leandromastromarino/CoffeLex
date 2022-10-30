@@ -1,0 +1,242 @@
+/* ----Paleta de colores-----
+#f4f1de
+#cc7351
+#994f19
+#2A3C2A
+
+#F8F6F0 color de fondo
+#C0A284
+
+
+*/
+/*-----Tipografia----
+CaslonCp
+Georgia
+*/
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+* { margin: 0; padding: 0;}
+.carrito-number{
+    font-size: 15px;
+    background-color: #C0A284;
+    color: #F8F6F0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    align-self: flex-start;
+    margin-top: -12px;
+    margin-left: -5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: none;
+}
+.cart-icon-header{
+    display: flex;
+    justify-content: center;
+}
+.categorias{
+    padding-left: 100px !important;
+}
+.categorias-titulo{
+    background-color: #C0A284;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.categorias-contenido{
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.portada img{
+    width: 100%;
+    height: auto;
+}
+.body{
+background-color: #F8F6F0;
+font-family: 'Lato';
+}
+.product-button{
+    background-color: white;
+    border: white;
+
+}
+.product-button:hover{
+    background-color: #C0A284;
+    border: white;
+    border-radius: 50%;
+}
+#contenido{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ @media all and (max-width:768px) {
+    .card{
+        margin: auto;
+    }
+    .categorias{
+        display: none;
+    }
+    
+} 
+.product-img{
+    height: auto;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    align-items: center;
+    align-self: center;
+}
+.product-price{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-title{
+font-size: 18px;
+}
+.product-sell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.card{
+    display: flex;
+    max-width: 250px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.cart-img{
+    filter: invert(69%) sepia(6%) saturate(1559%) hue-rotate(349deg) brightness(95%) contrast(90%);
+    height: auto;
+    width: 40px;
+    align-self: flex-end;
+    justify-self: start;
+}
+.cart-img:hover{
+    transition: 0.5s;
+    filter: invert(97%) sepia(1%) saturate(108%) hue-rotate(282deg) brightness(117%) contrast(100%);
+}
+.footer{
+    margin-top: 5px;
+}
+
+#modal-container{
+    padding-top: 200px;
+    position: fixed;
+    background-color: #C0A284bd;
+    color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    flex-direction: column;
+    display: none;
+}
+.modal-container{
+    background-color: #F8F6F0;
+}
+.modal-header{
+    flex-direction: row;
+    justify-content: center;
+}
+.modal-header-close:hover{
+    transition: 1s;
+    color: #C0A284;
+    border: 1px #C0A284;
+}
+.modal-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-cantidad{
+    display: flex;
+    flex-direction: row;
+
+}
+.modal-cantidad h3{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.modal-img{
+    width: 100px;
+    height: auto;
+}
+.modal-cantidad .suma-resta{
+    width: 30px;
+    height: 30px;
+    background-color: #C0A284;
+    color: #F8F6F0;
+    text-align: center;
+}
+.modal-cantidad .suma-resta:hover{
+    transition: 1s;
+    background-color:#F8F6F0 ;
+    color: #C0A284;
+    border-color: #C0A284;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.modal-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    padding-bottom: 10px;
+
+}
+.img-trash{
+    width: 30px;
+    height: auto;
+}
+
+/* .boton-agregar {
+    position: absolute;
+    align-self: flex-end;
+    justify-self: flex-end;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 10px;
+    background-color:#C0A284;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    border: none;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.boton-agregar:hover {
+    transition: 1s;
+    background-color: #f4f1de;
+    cursor: pointer;
+}
+.boton-agregar:focus {
+    outline: none;
+} */
+
+

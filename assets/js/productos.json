@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombre":"cafe Arabico",
+        "precio":2500,
+        "img":"./assets/images/mockup-cafe.png"
+    },
+    {
+        "id":2,
+        "nombre":"cafe Brasil",
+        "precio":5000,
+        "img":"./assets/images/mockup-cafe.png"
+    },
+    {
+        "id":3,
+        "nombre":"cafe Colombia",
+        "precio":7500,
+        "img":"./assets/images/mockup-cafe.png"
+    },
+    {
+        "id":4,
+        "nombre":"cafe Peruana",
+        "precio":10000,
+        "img":"./assets/images/mockup-cafe.png"
+    }
+]

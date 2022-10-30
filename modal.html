@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <!-- animate css -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+    <!-- sweet alert -->
+    <!-- CSS Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <title>CoffeLex</title>
+</head>
+<body class="body">
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CoffeLex</a>
+          <h1 class="cer-carrito" id="ver-carrito">🛒</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Quienes Somos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                    <li><a class="dropdown-item" href="#">Acerde de </a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="portada">
+        <img src="./assets/images/mainbanner1-1920x800.jpg" alt="">
+      </div>
+      <div id="modal-container" class="modal">
+        <div class="modal-container">
+          <div class="modal-header" id="modal-header">
+            <h1 class="modal-header-title">Carrito</h1>
+            <h3 class="modal-header-close">X</h3>
+          </div>
+          <div class="modal-product">
+              <img src="./assets/images/mockup-cafe.png" class="modal-img">
+              <h3>cafe Arabico</h3>
+              <h3>$2500</h3>
+              <div class="modal-cantidad">
+                <h3 class="suma-resta">-</h3>
+                <h3>1</h3>
+                <h3 class="suma-resta">+</h3>
+              </div>
+              <div class="trash" id="trash">
+                <img src="./assets/images/trash@4x.png" alt="borrar-producto" class="img-trash">
+              </div>
+          </div>
+          <div class="modal-product">
+            <img src="./assets/images/mockup-cafe.png" class="modal-img">
+            <h3>cafe Arabico</h3>
+            <h3>$2500</h3>
+          </div>
+          <div class="modal-total">
+            <h3>TOTAL $5000</h3>
+          </div>
+        </div>
+      </div>
+      <div id="contenido">
+        <div class="text-center">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Categorias</h3>
+                <div class="categorias">
+                  <h4>Arabicos</h4>
+                  <h4>Colombianos</h4>
+                  <h4>Brasil</h4>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3>Productos</h3>
+                <div id="shop" class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="img">
+                        <img class="product-img" src="./assets/images/mockup-cafe.png" alt="">
+                      </div>
+                      <div class="product-title">Cafe arabico</div>
+                      <div class="product-sell">
+                        <button class=" product-button">
+                          <img class="cart-img" src="./assets/images/carrito-shop-black.png" alt="">
+                        </button>
+                        <div class="product-price">$1200</div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="footer">
+        <h3>Footer</h3>
+      </div>
+      <script src="./assets/js/index.js"></script>
+</body>
+</html>
